@@ -12,4 +12,6 @@
 
 @property (nonatomic, strong) NSArray *colorArray;
 
++ (CGFloat) heightWithWidth: (CGFloat) width colorArray: (NSArray *) colorArray;
+
 @end

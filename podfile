@@ -1,0 +1,4 @@
+platform :ios, '11.2'
+target 'NinePhotoDemo' do
+pod 'Masonry'
+end

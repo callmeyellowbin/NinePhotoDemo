@@ -10,4 +10,6 @@
 
 @interface HobenNinePhotoCell : UICollectionViewCell
 
+@property (nonatomic, strong) UIColor *color;
+
 @end

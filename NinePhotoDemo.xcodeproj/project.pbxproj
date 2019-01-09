@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0651C0E0210AAF7600204AEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651C0DF210AAF7600204AEE /* AppDelegate.m */; };
-		0651C0E3210AAF7600204AEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651C0E2210AAF7600204AEE /* ViewController.m */; };
 		0651C0E6210AAF7600204AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0651C0E4210AAF7600204AEE /* Main.storyboard */; };
 		0651C0E8210AAF7800204AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0651C0E7210AAF7800204AEE /* Assets.xcassets */; };
 		0651C0EB210AAF7800204AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0651C0E9210AAF7800204AEE /* LaunchScreen.storyboard */; };
 		0651C0EE210AAF7800204AEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651C0ED210AAF7800204AEE /* main.m */; };
 		0651C0F8210AAF7800204AEE /* NinePhotoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651C0F7210AAF7800204AEE /* NinePhotoDemoTests.m */; };
 		0651C103210AAF7800204AEE /* NinePhotoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651C102210AAF7800204AEE /* NinePhotoDemoUITests.m */; };
+		0651C113210AAFEA00204AEE /* HobenNinePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651C112210AAFEA00204AEE /* HobenNinePhotoCell.m */; };
+		0651C115210AB43700204AEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651C114210AB43700204AEE /* ViewController.m */; };
+		0651C119210AB89900204AEE /* HobenNinePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651C118210AB89900204AEE /* HobenNinePhotoView.m */; };
+		0651C11C210AC26900204AEE /* HobenInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0651C11B210AC26900204AEE /* HobenInfoCell.m */; };
+		1CF002EA0B83D25F469A5C0F /* libPods-NinePhotoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE97FECE6FF6954094EDD73 /* libPods-NinePhotoDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		0651C0DE210AAF7600204AEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0651C0DF210AAF7600204AEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0651C0E1210AAF7600204AEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0651C0E2210AAF7600204AEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0651C0E5210AAF7600204AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0651C0E7210AAF7800204AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0651C0EA210AAF7800204AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,16 @@
 		0651C0FE210AAF7800204AEE /* NinePhotoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinePhotoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0651C102210AAF7800204AEE /* NinePhotoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NinePhotoDemoUITests.m; sourceTree = "<group>"; };
 		0651C104210AAF7800204AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0651C111210AAFEA00204AEE /* HobenNinePhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HobenNinePhotoCell.h; sourceTree = "<group>"; };
+		0651C112210AAFEA00204AEE /* HobenNinePhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HobenNinePhotoCell.m; sourceTree = "<group>"; };
+		0651C114210AB43700204AEE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0651C117210AB89900204AEE /* HobenNinePhotoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HobenNinePhotoView.h; sourceTree = "<group>"; };
+		0651C118210AB89900204AEE /* HobenNinePhotoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HobenNinePhotoView.m; sourceTree = "<group>"; };
+		0651C11A210AC26900204AEE /* HobenInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HobenInfoCell.h; sourceTree = "<group>"; };
+		0651C11B210AC26900204AEE /* HobenInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HobenInfoCell.m; sourceTree = "<group>"; };
+		0B5222D80F22950C4A7F7DEE /* Pods-NinePhotoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinePhotoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NinePhotoDemo/Pods-NinePhotoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1CC6B981B93B03977CEBB2F8 /* Pods-NinePhotoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinePhotoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NinePhotoDemo/Pods-NinePhotoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7CE97FECE6FF6954094EDD73 /* libPods-NinePhotoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NinePhotoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF002EA0B83D25F469A5C0F /* libPods-NinePhotoDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				0651C0F6210AAF7800204AEE /* NinePhotoDemoTests */,
 				0651C101210AAF7800204AEE /* NinePhotoDemoUITests */,
 				0651C0DC210AAF7600204AEE /* Products */,
+				31F17AFE4BD392A6293552B3 /* Pods */,
+				858A5062A3928091E614E0E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +117,13 @@
 		0651C0DD210AAF7600204AEE /* NinePhotoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0651C116210AB84B00204AEE /* View */,
+				0651C110210AAFA900204AEE /* Cell */,
 				0651C0DE210AAF7600204AEE /* AppDelegate.h */,
 				0651C0DF210AAF7600204AEE /* AppDelegate.m */,
 				0651C0E1210AAF7600204AEE /* ViewController.h */,
-				0651C0E2210AAF7600204AEE /* ViewController.m */,
 				0651C0E4210AAF7600204AEE /* Main.storyboard */,
+				0651C114210AB43700204AEE /* ViewController.m */,
 				0651C0E7210AAF7800204AEE /* Assets.xcassets */,
 				0651C0E9210AAF7800204AEE /* LaunchScreen.storyboard */,
 				0651C0EC210AAF7800204AEE /* Info.plist */,
@@ -132,6 +150,43 @@
 			path = NinePhotoDemoUITests;
 			sourceTree = "<group>";
 		};
+		0651C110210AAFA900204AEE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0651C11A210AC26900204AEE /* HobenInfoCell.h */,
+				0651C11B210AC26900204AEE /* HobenInfoCell.m */,
+				0651C111210AAFEA00204AEE /* HobenNinePhotoCell.h */,
+				0651C112210AAFEA00204AEE /* HobenNinePhotoCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0651C116210AB84B00204AEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0651C117210AB89900204AEE /* HobenNinePhotoView.h */,
+				0651C118210AB89900204AEE /* HobenNinePhotoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31F17AFE4BD392A6293552B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B5222D80F22950C4A7F7DEE /* Pods-NinePhotoDemo.debug.xcconfig */,
+				1CC6B981B93B03977CEBB2F8 /* Pods-NinePhotoDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		858A5062A3928091E614E0E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CE97FECE6FF6954094EDD73 /* libPods-NinePhotoDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0651C107210AAF7800204AEE /* Build configuration list for PBXNativeTarget "NinePhotoDemo" */;
 			buildPhases = (
+				016CEB219BD8E79A2B83B61B /* [CP] Check Pods Manifest.lock */,
 				0651C0D7210AAF7600204AEE /* Sources */,
 				0651C0D8210AAF7600204AEE /* Frameworks */,
 				0651C0D9210AAF7600204AEE /* Resources */,
@@ -257,14 +313,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		016CEB219BD8E79A2B83B61B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NinePhotoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0651C0D7210AAF7600204AEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0651C0E3210AAF7600204AEE /* ViewController.m in Sources */,
 				0651C0EE210AAF7800204AEE /* main.m in Sources */,
 				0651C0E0210AAF7600204AEE /* AppDelegate.m in Sources */,
+				0651C11C210AC26900204AEE /* HobenInfoCell.m in Sources */,
+				0651C119210AB89900204AEE /* HobenNinePhotoView.m in Sources */,
+				0651C113210AAFEA00204AEE /* HobenNinePhotoCell.m in Sources */,
+				0651C115210AB43700204AEE /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,9 +511,11 @@
 		};
 		0651C108210AAF7800204AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B5222D80F22950C4A7F7DEE /* Pods-NinePhotoDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHB3KYN63H;
 				INFOPLIST_FILE = NinePhotoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +529,11 @@
 		};
 		0651C109210AAF7800204AEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC6B981B93B03977CEBB2F8 /* Pods-NinePhotoDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHB3KYN63H;
 				INFOPLIST_FILE = NinePhotoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

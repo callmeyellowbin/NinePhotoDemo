@@ -10,4 +10,8 @@
 
 @interface HobenInfoCell : UITableViewCell
 
+- (void)setColorArray:(NSArray *)colorArray;
+
+@property (nonatomic, strong) NSArray *colorArray;
+
 @end
